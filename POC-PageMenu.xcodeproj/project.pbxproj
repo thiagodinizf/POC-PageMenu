@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		474588B5207F863B00A9EFA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474588B4207F863B00A9EFA9 /* AppDelegate.swift */; };
-		474588B7207F863B00A9EFA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474588B6207F863B00A9EFA9 /* ViewController.swift */; };
+		474588B7207F863B00A9EFA9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474588B6207F863B00A9EFA9 /* MenuViewController.swift */; };
 		474588BA207F863B00A9EFA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474588B8207F863B00A9EFA9 /* Main.storyboard */; };
 		474588BC207F863B00A9EFA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474588BB207F863B00A9EFA9 /* Assets.xcassets */; };
 		474588BF207F863B00A9EFA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474588BD207F863B00A9EFA9 /* LaunchScreen.storyboard */; };
+		474588CE207F868D00A9EFA9 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474588C7207F868C00A9EFA9 /* CAPSPageMenu+UIScrollViewDelegate.swift */; };
+		474588CF207F868D00A9EFA9 /* CAPSPageMenu+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474588C8207F868C00A9EFA9 /* CAPSPageMenu+Options.swift */; };
+		474588D0207F868D00A9EFA9 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474588C9207F868C00A9EFA9 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */; };
+		474588D1207F868D00A9EFA9 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474588CA207F868C00A9EFA9 /* MenuItemView.swift */; };
+		474588D2207F868D00A9EFA9 /* CAPSPageMenu+UIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474588CB207F868D00A9EFA9 /* CAPSPageMenu+UIConfiguration.swift */; };
+		474588D3207F868D00A9EFA9 /* CAPSPageMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474588CC207F868D00A9EFA9 /* CAPSPageMenuConfiguration.swift */; };
+		474588D4207F868D00A9EFA9 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474588CD207F868D00A9EFA9 /* CAPSPageMenu.swift */; };
+		474588D6207F8AB300A9EFA9 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474588D5207F8AB300A9EFA9 /* ResultViewController.swift */; };
+		474588DB207F980E00A9EFA9 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474588DA207F980E00A9EFA9 /* Storyboards.swift */; };
+		7D83F68100CD97571C19619B /* Pods_POC_PageMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9311CB30DFAB63A156BB10 /* Pods_POC_PageMenu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C95C2BCA20474CA0ADA47C3 /* Pods-POC-PageMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-PageMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-POC-PageMenu/Pods-POC-PageMenu.release.xcconfig"; sourceTree = "<group>"; };
 		474588B1207F863B00A9EFA9 /* POC-PageMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POC-PageMenu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		474588B4207F863B00A9EFA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		474588B6207F863B00A9EFA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		474588B6207F863B00A9EFA9 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		474588B9207F863B00A9EFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		474588BB207F863B00A9EFA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		474588BE207F863B00A9EFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		474588C0207F863B00A9EFA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		474588C7207F868C00A9EFA9 /* CAPSPageMenu+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		474588C8207F868C00A9EFA9 /* CAPSPageMenu+Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+Options.swift"; sourceTree = "<group>"; };
+		474588C9207F868C00A9EFA9 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
+		474588CA207F868C00A9EFA9 /* MenuItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		474588CB207F868D00A9EFA9 /* CAPSPageMenu+UIConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIConfiguration.swift"; sourceTree = "<group>"; };
+		474588CC207F868D00A9EFA9 /* CAPSPageMenuConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenuConfiguration.swift; sourceTree = "<group>"; };
+		474588CD207F868D00A9EFA9 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
+		474588D5207F8AB300A9EFA9 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		474588DA207F980E00A9EFA9 /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Storyboards.swift; path = "POC-PageMenu/Storyboards.swift"; sourceTree = SOURCE_ROOT; };
+		766A0F5B03B26D5E9CA8F529 /* Pods-POC-PageMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-PageMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-POC-PageMenu/Pods-POC-PageMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		BC9311CB30DFAB63A156BB10 /* Pods_POC_PageMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POC_PageMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D83F68100CD97571C19619B /* Pods_POC_PageMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18A10BC0C58CA689ACEEE5D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC9311CB30DFAB63A156BB10 /* Pods_POC_PageMenu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		474588A8207F863B00A9EFA9 = {
 			isa = PBXGroup;
 			children = (
 				474588B3207F863B00A9EFA9 /* POC-PageMenu */,
 				474588B2207F863B00A9EFA9 /* Products */,
+				B21F7A5412F57DD5859D7366 /* Pods */,
+				18A10BC0C58CA689ACEEE5D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,40 @@
 		474588B3207F863B00A9EFA9 /* POC-PageMenu */ = {
 			isa = PBXGroup;
 			children = (
+				474588C6207F864B00A9EFA9 /* PageMenu */,
+				474588DA207F980E00A9EFA9 /* Storyboards.swift */,
 				474588B4207F863B00A9EFA9 /* AppDelegate.swift */,
-				474588B6207F863B00A9EFA9 /* ViewController.swift */,
+				474588B6207F863B00A9EFA9 /* MenuViewController.swift */,
+				474588D5207F8AB300A9EFA9 /* ResultViewController.swift */,
 				474588B8207F863B00A9EFA9 /* Main.storyboard */,
 				474588BB207F863B00A9EFA9 /* Assets.xcassets */,
 				474588BD207F863B00A9EFA9 /* LaunchScreen.storyboard */,
 				474588C0207F863B00A9EFA9 /* Info.plist */,
 			);
 			path = "POC-PageMenu";
+			sourceTree = "<group>";
+		};
+		474588C6207F864B00A9EFA9 /* PageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				474588CD207F868D00A9EFA9 /* CAPSPageMenu.swift */,
+				474588C8207F868C00A9EFA9 /* CAPSPageMenu+Options.swift */,
+				474588CB207F868D00A9EFA9 /* CAPSPageMenu+UIConfiguration.swift */,
+				474588C9207F868C00A9EFA9 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */,
+				474588C7207F868C00A9EFA9 /* CAPSPageMenu+UIScrollViewDelegate.swift */,
+				474588CC207F868D00A9EFA9 /* CAPSPageMenuConfiguration.swift */,
+				474588CA207F868C00A9EFA9 /* MenuItemView.swift */,
+			);
+			path = PageMenu;
+			sourceTree = "<group>";
+		};
+		B21F7A5412F57DD5859D7366 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				766A0F5B03B26D5E9CA8F529 /* Pods-POC-PageMenu.debug.xcconfig */,
+				0C95C2BCA20474CA0ADA47C3 /* Pods-POC-PageMenu.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +130,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 474588C3207F863B00A9EFA9 /* Build configuration list for PBXNativeTarget "POC-PageMenu" */;
 			buildPhases = (
+				07B35DD26139E4979C45E7F0 /* [CP] Check Pods Manifest.lock */,
+				474588D7207F8B5400A9EFA9 /* SwiftGen */,
 				474588AD207F863B00A9EFA9 /* Sources */,
 				474588AE207F863B00A9EFA9 /* Frameworks */,
 				474588AF207F863B00A9EFA9 /* Resources */,
+				7834C0483F8E95966F924307 /* [CP] Embed Pods Frameworks */,
+				DFAA7FDF10DFEC3C7ABFF5AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +194,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07B35DD26139E4979C45E7F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-POC-PageMenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		474588D7207F8B5400A9EFA9 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftgen >/dev/null; then\nswiftgen storyboards -t swift4 \"$PROJECT_DIR/$PROJECT_NAME\" --output \"$PROJECT_DIR/$PROJECT_NAME/Storyboards.swift\"\nelse\necho \"warning: SwiftGen not installed, download it from https://github.com/SwiftGen/SwiftGen\"\nfi";
+		};
+		7834C0483F8E95966F924307 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-POC-PageMenu/Pods-POC-PageMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFAA7FDF10DFEC3C7ABFF5AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-POC-PageMenu/Pods-POC-PageMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		474588AD207F863B00A9EFA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				474588B7207F863B00A9EFA9 /* ViewController.swift in Sources */,
+				474588B7207F863B00A9EFA9 /* MenuViewController.swift in Sources */,
+				474588CF207F868D00A9EFA9 /* CAPSPageMenu+Options.swift in Sources */,
+				474588CE207F868D00A9EFA9 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */,
+				474588D3207F868D00A9EFA9 /* CAPSPageMenuConfiguration.swift in Sources */,
+				474588DB207F980E00A9EFA9 /* Storyboards.swift in Sources */,
 				474588B5207F863B00A9EFA9 /* AppDelegate.swift in Sources */,
+				474588D6207F8AB300A9EFA9 /* ResultViewController.swift in Sources */,
+				474588D1207F868D00A9EFA9 /* MenuItemView.swift in Sources */,
+				474588D2207F868D00A9EFA9 /* CAPSPageMenu+UIConfiguration.swift in Sources */,
+				474588D0207F868D00A9EFA9 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */,
+				474588D4207F868D00A9EFA9 /* CAPSPageMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +409,7 @@
 		};
 		474588C4207F863B00A9EFA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 766A0F5B03B26D5E9CA8F529 /* Pods-POC-PageMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +425,7 @@
 		};
 		474588C5207F863B00A9EFA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C95C2BCA20474CA0ADA47C3 /* Pods-POC-PageMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
