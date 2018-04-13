@@ -17,9 +17,11 @@ class MenuViewController: UIViewController {
 
     var pageMenu : CAPSPageMenu?
     
-    var tabs = [TabModel(id: 30031, title: "Filmes (46)"),
-                TabModel(id: 30032, title: "Programas de TV / Séries (5)"),
-                TabModel(id: 30033, title: "Filmes para alugar (23)")]
+//    var tabs = [TabModel(id: 30031, title: "Filmes (46)"),
+//                TabModel(id: 30032, title: "Programas de TV / Séries (5)"),
+//                TabModel(id: 30033, title: "Filmes para alugar (23)")]
+
+    var tabs = [TabModel(id: 30031, title: "Filmes (46)")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,14 +41,13 @@ class MenuViewController: UIViewController {
         }
         
         // Customize menu (Optional)
-        let parameters: [CAPSPageMenuOption] = [
+        var parameters: [CAPSPageMenuOption] = [
             .menuItemSeparatorWidth(1.0),
             .scrollMenuBackgroundColor(UIColor.white),
             .viewBackgroundColor(UIColor(red: 247.0/255.0, green: 247.0/255.0, blue: 247.0/255.0, alpha: 1.0)),
             .bottomMenuHairlineColor(UIColor(red: 20.0/255.0, green: 20.0/255.0, blue: 20.0/255.0, alpha: 0.1)),
             .selectionIndicatorColor(UIColor(red: 18.0/255.0, green: 150.0/255.0, blue: 225.0/255.0, alpha: 1.0)),
             .menuMargin(10.0),
-            .menuHeight(40.0),
             .selectedMenuItemLabelColor(UIColor(red: 18.0/255.0, green: 150.0/255.0, blue: 225.0/255.0, alpha: 1.0)),
             .unselectedMenuItemLabelColor(UIColor(red: 40.0/255.0, green: 40.0/255.0, blue: 40.0/255.0, alpha: 1.0)),
             .menuItemFont(UIFont(name: "HelveticaNeue-Medium", size: 14.0)!),
@@ -57,6 +58,14 @@ class MenuViewController: UIViewController {
             .scrollAnimationDurationOnMenuItemTap(250),
             .menuItemWidthBasedOnTitleTextWidth(true)
         ]
+        
+        if tabs.count > 1 {
+            parameters.append(.enableHorizontalBounce(true))
+            parameters.append(.menuHeight(40.0))
+        } else {
+            parameters.append(.enableHorizontalBounce(false))
+            parameters.append(.menuHeight(0.0))
+        }
         
         // Initialize scroll menu
         pageMenu = CAPSPageMenu(viewControllers: controllerArray, frame: CGRect(x: 0.0, y: 64.0, width: self.view.frame.width, height: self.view.frame.height), pageMenuOptions: parameters)
